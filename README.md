@@ -11,9 +11,3 @@
 - scss
 - popper
 - gulp
-
-## Install Dependencies
-
-```bash
-npm install
-```
