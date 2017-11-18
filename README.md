@@ -1,23 +1,19 @@
-# Bootstrap 4 Starter Pack (BETA 4.0.0)
+# MBS Test
 
-Includes complete Bootstrap 4.0.0-beta dev environment with gulp and sass
-
-If you are looking for the alpha6 version [click here](https://github.com/bradtraversy/bs4starter_alpha6)
 
 ### Version
 
 1.0.0
 
+#This project built with:
+- Bootstrap 4
+- jquery
+- scss
+- popper
+- gulp
+
 ## Install Dependencies
 
 ```bash
-npm install 
+npm install
 ```
-
-## Compile Sass & Run Dev Server
-
-```bash
-npm start
-```
-
-Files are compiled into /src
