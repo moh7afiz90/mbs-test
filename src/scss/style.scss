@@ -1,0 +1,118 @@
+// Main Sass File
+$primary-color: #E70876;
+
+
+body{
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+// Breadcrumbs
+#breadc{
+  nav a {
+    text-decoration: none;
+    color: #afaeae;
+  }
+  a:hover{
+    color: black;
+  }
+  a:active{
+    color: black;
+  }
+  background-color: #fff;
+  #breadc-1{
+    color: #827e7e;
+    text-decoration: none;
+  }
+  #breadc-2{
+    color: #3d3d3d;
+    text-decoration: none;
+    font-weight: 900;
+  }
+}
+
+
+
+// ShowCase 1
+#showcase-1{
+  background: url('../../assets/img/pattern-wood.png');
+  min-height: 700px;
+  min-width: 100px;
+  .part-1{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #img1{
+    position: relative;
+    width: 300px;
+    height: 400px;
+  }
+  #img2{
+    position: absolute;
+    bottom: -100px;
+    left: 180px
+  }
+
+}
+
+#section-2{
+    background: #e6ebf1;
+    min-height: 700px;
+    min-width: 300px;
+    .part-1{
+      padding-left: 100px;
+      margin-right: 200px;
+    }
+
+    img{
+        width: 40%;
+    }
+}
+#showcase-3{
+  background: url('../../assets/img/pattern-leaves.png');
+  min-height: 700px;
+  min-width: 300px;
+  .part-1{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #img4{
+    position: relative;
+    width: 300px;
+    height: 400px;
+  }
+  #img5{
+    position: absolute;
+    bottom: -100px;
+    left: 180px
+  }
+
+}
+#newsletter{
+  background-color: $primary-color
+}
+
+#footer{
+  background-color: #444444;
+  li{
+    list-style-type: none;
+    font-style: italic;
+    .items{
+      color: #afaeae;
+    }
+
+  }
+  h6{
+    color: #afaeae;
+  }
+  hr {
+    height: 0.2px;
+    background-color: #afaeae;
+  }
+
+  #copyright{
+    color: #afaeae;
+    h5{
+      padding-bottom: 100px;
+    }
+  }
+}
